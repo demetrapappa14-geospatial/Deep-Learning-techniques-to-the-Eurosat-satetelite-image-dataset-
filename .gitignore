@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+venv/
+.env
+.ipynb_checkpoints/
+data/eurosat/
+data/EuroSAT/
+data/2750/
+yolo_pseudo_dataset/images/
+yolo_pseudo_dataset/labels/
+results/yolo_runs/
+results/yolo_predictions/
+*.pt
+*.pth

@@ -1,0 +1,6 @@
+{
+    "model": "resnet18_transfer",
+    "test_accuracy": 0.9592592592592593,
+    "macro_f1": 0.9583442955599448,
+    "weighted_f1": 0.9593713874956562
+}
