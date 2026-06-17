@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EuroSAT Image Classification and Visual Object Analysis
 
 This project applies deep learning techniques to the EuroSAT satellite image dataset.
@@ -128,3 +129,7 @@ The code automatically saves:
 - pseudo object detection images
 - pseudo segmentation images
 - YOLO runs/predictions
+=======
+# Deep-Learning-techniques-to-the-Eurosat-satetelite-image-dataset-
+Remote sensing image analysis on EuroSAT using CNNs, ResNet18, EfficientNet-B0, YOLOv8 pseudo object detection, and pseudo semantic segmentation with comprehensive performance evaluation.
+>>>>>>> dabe258756d527f94d8d042a7ec978e3e96bdb94
