@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # EuroSAT Image Classification and Visual Object Analysis
 
 This project applies deep learning techniques to the EuroSAT satellite image dataset.
