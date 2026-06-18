@@ -1,7 +1,8 @@
 
 # EuroSAT Image Classification and Visual Object Analysis
 
-This project applies deep learning techniques to the EuroSAT satellite image dataset.
+This project applies deep learning techniques to the EuroSAT(land use and land cover classification dataset) that is based on Sentinel-2 satelite imagery images.
+
 
 The main task is **image classification** using three models:
 
