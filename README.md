@@ -250,5 +250,5 @@ Pseudo semantic segmentation is evaluated qualitatively through visual inspectio
 
 ## Limitations 
 
--Eurosat Dataset is desdigned  fro image classification only 
--No official segmetation masks are available
+- Eurosat Dataset is desdigned  fro image classification only 
+- No official segmetation masks are available
