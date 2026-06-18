@@ -7,8 +7,8 @@ This projeinvestigates the aplicattion of deep learning techniques  to the EuroS
 The main task is **image classification** using three models:
 
 1. A Custom convotutional neural network (CNN) trained from scratch.
-2. ResNet18 with transfer learning
-3. EfficientNet-B0 with transfer learning
+2. ResNet18 with transfer learning.
+3. EfficientNet-B0 with transfer learning.
 
 Additional visual analysis extensions are also included:
 
@@ -18,7 +18,7 @@ Additional visual analysis extensions are also included:
 
 ## Important Note
 
-EuroSAT is an image classification dataset. It does not provide official segmentation masks or bounding-box annotations. Therefore, the segmentation and object detection parts are implemented as **pseudo visual analysis extensions**, not as fully supervised segmentation/detection benchmarks.
+EuroSAT is an image classification dataset. It does not provide official segmentation masks or bounding-box annotations. Therefore, the segmentation and object detection parts are implemented as **pseudo visual analysis extensions**, not as fully supervised segmentation/detection benchmarks.Since EuroSAT does not provide official segmentation masks or object detection annotations, pseudo labels were generated automatically to enable qualitative visual analysis.
 
 ## Project Structure
 
