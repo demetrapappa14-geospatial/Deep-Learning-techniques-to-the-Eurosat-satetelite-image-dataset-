@@ -250,5 +250,21 @@ Pseudo semantic segmentation is evaluated qualitatively through visual inspectio
 
 ## Limitations 
 
-- Eurosat Dataset is desdigned  fro image classification only 
-- No official segmetation masks are available
+- Eurosat Dataset is desdigned  for image classification only 
+- No official segmetation masks and bounding boxes are available
+- Pseudo labels may be introduced annotation erros
+---
+
+## Technologies Used
+
+- Python
+- PyTorch
+- Torchvision
+- Ultralytics YOLOv8
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+---
+
