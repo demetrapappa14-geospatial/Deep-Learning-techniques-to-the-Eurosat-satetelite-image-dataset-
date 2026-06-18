@@ -66,13 +66,13 @@ Architecture components:
 
 This model serves as the baseline approach.
 
-##ResNet18 Transfer Learning
+## ResNet18 Transfer Learning
 ResNet was Intiliazed with pre-trained weigthts.
 Transfer Learning strategy:
 - Replace the final classification layer.
 - Fine-tune the model on EuroSAT.
 
-##EfficientNet-B0 Transfer Learning
+## EfficientNet-B0 Transfer Learning
 EfficientNet-B0 was initialized with ImageNet pre-trained weights and fine-tuned on EuroSAT.
 
 Advantages:
