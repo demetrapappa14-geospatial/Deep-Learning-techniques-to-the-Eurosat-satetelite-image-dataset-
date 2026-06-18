@@ -83,18 +83,58 @@ Advantages:
 
 ---
 
+## Additional Visual Analysis
+
+### Pseudo Semantic Segmentation
+
+EuroSAT does not provide official segmentation masks.
+
+Pseudo segmentation is implemented using:
+
+- Color thresholding
+- Binary mask generation
+- Overlay visualization
+
+### Pseudo Object Detection
+
+EuroSAT does not provide official bounding-box annotations.
+
+Pseudo object detection is implemented by:
+
+- Generating masks
+- Identifying regions of interest
+- Creating pseudo bounding boxes
+
+### YOLOv8 Pseudo Object Detection
+
+Pseudo annotations are converted into YOLO format to train a YOLOv8 model.
+
+The pipeline includes:
+
+1. Pseudo label generation
+2. YOLO dataset creation
+3. YOLOv8 training
+4. YOLOv8 prediction
+
+---
+
 ## Project Structure
 
 ```text
-data/                       EuroSAT images after download
-models/                     saved trained model weights
-results/                    curves, metrics, confusion matrices
-src/                        source code
-yolo_pseudo_dataset/         generated YOLO pseudo dataset
-README.md
-REPORT.md
-requirements.txt
-RUN_ORDER_WINDOWS.md
+Deep-Learning-techniques-to-the-Eurosat-satetelite-image-dataset-/
+
+├── data/
+├── models/
+├── notebooks/
+├── results/
+├── src/
+├── yolo_pseudo_dataset/
+
+├── README.md
+├── REPORT.pdf
+├── requirements.txt
+├── RUN_ORDER_WINDOWS.md
+└── .gitignore
 ```
 
 ## Installation
