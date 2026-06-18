@@ -139,10 +139,13 @@ Deep-Learning-techniques-to-the-Eurosat-satetelite-image-dataset-/
 
 ## Installation
 
-```bash
-pip install -r requirements.txt
-```
+Clone the repository:
 
+```bash
+git clone https://github.com/demetrapappa14-geospatial/Deep-Learning-techniques-to-the-Eurosat-satetelite-image-dataset-.git
+
+cd Deep-Learning-techniques-to-the-Eurosat-satetelite-image-dataset-
+```
 ## Download Dataset
 
 ```bash
@@ -208,16 +211,42 @@ Run YOLO prediction:
 ```bash
 python yolo_predict_pseudo_detection.py --class_name Highway
 ```
+## Evaluation Metrics 
+Classsification models are evaluated using:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+- Normalized Confusion Matrix
+
+YOLOv8 pseudo object detection is evaluated using:
+
+- Precision
+- Recall
+- mAP@50
+- mAP@50-95
+
+Pseudo semantic segmentation is evaluated qualitatively through visual inspection.
+
+---
 
 ## Expected Results
+| Model | Training Strategy | Test Accuracy |
+|-------|-------------------|---------------:|
+| Custom CNN | Training from scratch | 93.58% |
+| ResNet18 | Transfer learning | 94.74% |
+| EfficientNet-B0 | Transfer learning | 97.70% |
 
-Typical results on EuroSAT:
+### YOLOv8 Pseudo Detection Results
 
-| Model | Expected Accuracy |
-|---|---:|
-| Custom CNN | 88–91% |
-| ResNet18 Transfer Learning | 94–96% |
-| EfficientNet-B0 Transfer Learning | 95–98% |
+| Metric | Value |
+|---------|------:|
+| Precision | 0.94 |
+| Recall | 0.91 |
+| mAP@50 | 0.937 |
+| mAP@50-95 | 0.900 |
+
 
 ## Outputs for Report
 
