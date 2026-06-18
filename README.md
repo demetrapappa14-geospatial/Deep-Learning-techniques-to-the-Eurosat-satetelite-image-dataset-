@@ -6,7 +6,7 @@ This projeinvestigates the aplicattion of deep learning techniques  to the EuroS
 
 The main task is **image classification** using three models:
 
-1. Custom CNN trained from scratch
+1. A Custom convotutional neural network (CNN) trained from scratch.
 2. ResNet18 with transfer learning
 3. EfficientNet-B0 with transfer learning
 
