@@ -20,6 +20,38 @@ Additional visual analysis extensions are also included:
 
 EuroSAT is an image classification dataset. It does not provide official segmentation masks or bounding-box annotations. Therefore, the segmentation and object detection parts are implemented as **pseudo visual analysis extensions**, not as fully supervised segmentation/detection benchmarks.Since EuroSAT does not provide official segmentation masks or object detection annotations, pseudo labels were generated automatically to enable qualitative visual analysis.
 
+## Dataset Description
+
+The project uses the EuroSAT RGB dataset, which consists of Sentinel-2 satellite image patches categorized into ten land use and land cover classes.
+
+### Dataset Characteristics
+
+- Image size: 64 × 64 pixels
+- Number of classes: 10
+- Data source: Sentinel-2 satellite imagery
+- Task: Image classification
+
+### EuroSAT Classes
+
+| Class ID | Class Name |
+|-----------|-------------|
+| 0 | AnnualCrop |
+| 1 | Forest |
+
+| 2 | HerbaceousVegetation |
+| 3 | Highway |
+| 4 | Industrial |
+| 5 | Pasture |
+| 6 | PermanentCrop |
+| 7 | Residential |
+| 8 | River |
+| 9 | SeaLake |
+
+Dataset source:
+
+https://zenodo.org/records/7711810
+
+---
 ## Project Structure
 
 ```text
