@@ -37,7 +37,6 @@ The project uses the EuroSAT RGB dataset, which consists of Sentinel-2 satellite
 |-----------|-------------|
 | 0 | AnnualCrop |
 | 1 | Forest |
-
 | 2 | HerbaceousVegetation |
 | 3 | Highway |
 | 4 | Industrial |
