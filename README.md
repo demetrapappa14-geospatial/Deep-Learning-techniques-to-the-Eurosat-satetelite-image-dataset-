@@ -49,8 +49,40 @@ The project uses the EuroSAT RGB dataset, which consists of Sentinel-2 satellite
 Dataset source:
 
 https://zenodo.org/records/7711810
+---
+##Implemented Models
+
+## Custom CNN
+A custom Convolutional Neural Network (CNN) was designed and trained from scratch.
+
+Architecture components:
+
+- Convolutional layers
+- Batch normalization
+- ReLU activation
+- Max pooling
+- Dropout
+- Fully connected layers
+
+This model serves as the baseline approach.
+
+##ResNet18 Transfer Learning
+ResNet was Intiliazed with pre-trained weigthts.
+Transfer Learning strategy:
+- Replace the final classification layer.
+- Fine-tune the model on EuroSAT.
+
+##EfficientNet-B0 Transfer Learning
+EfficientNet-B0 was initialized with ImageNet pre-trained weights and fine-tuned on EuroSAT.
+
+Advantages:
+
+- Efficient architecture
+- Strong feature extraction capability
+- High classification performance
 
 ---
+
 ## Project Structure
 
 ```text
