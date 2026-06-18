@@ -248,17 +248,7 @@ Pseudo semantic segmentation is evaluated qualitatively through visual inspectio
 | mAP@50-95 | 0.900 |
 
 
-## Outputs for Report
+## Limitations 
 
-The code automatically saves:
-
-- loss curves
-- accuracy curves
-- confusion matrices
-- normalized confusion matrices
-- classification reports
-- test metrics
-- comparison table
-- pseudo object detection images
-- pseudo segmentation images
-- YOLO runs/predictions
+-Eurosat Dataset is desdigned  fro image classification only 
+-No official segmetation masks are available
