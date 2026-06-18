@@ -234,18 +234,18 @@ Pseudo semantic segmentation is evaluated qualitatively through visual inspectio
 ## Expected Results
 | Model | Training Strategy | Test Accuracy |
 |-------|-------------------|---------------:|
-| Custom CNN | Training from scratch | 93.58% |
-| ResNet18 | Transfer learning | 94.74% |
-| EfficientNet-B0 | Transfer learning | 97.70% |
+| Custom CNN | Training from scratch | 90-95% |
+| ResNet18 | Transfer learning | 93-96% |
+| EfficientNet-B0 | Transfer learning | 95-98% |
 
 ### YOLOv8 Pseudo Detection Results
 
 | Metric | Value |
 |---------|------:|
-| Precision | 0.94 |
-| Recall | 0.91 |
-| mAP@50 | 0.937 |
-| mAP@50-95 | 0.900 |
+| Precision | 0.85-0.95 |
+| Recall | 0.80-0.92|
+| mAP@50 | 0.85 -0.95|
+| mAP@50-95 | 0.75-0.90|
 
 
 ## Limitations 
