@@ -50,7 +50,7 @@ Dataset source:
 
 https://zenodo.org/records/7711810
 ---
-##Implemented Models
+## Implemented Models
 
 ## Custom CNN
 A custom Convolutional Neural Network (CNN) was designed and trained from scratch.
