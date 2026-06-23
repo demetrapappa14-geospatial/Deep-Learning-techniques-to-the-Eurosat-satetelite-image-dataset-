@@ -1,4 +1,4 @@
-path: C:/Users/dpapa/Downloads/deep_learning/yolo_pseudo_dataset
+path: C:/Users/Beans/Deep-Learning-techniques-to-the-Eurosat-satetelite-image-dataset-/yolo_pseudo_dataset
 train: images/train
 val: images/val
 test: images/test
