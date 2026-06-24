@@ -136,7 +136,29 @@ Deep-Learning-techniques-to-the-Eurosat-satetelite-image-dataset-/
 ├── RUN_ORDER_WINDOWS.md
 └── .gitignore
 ```
+## Requirements
 
+The project was developed and tested using Python 3.11.
+
+Install all required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+The main libraries used in this project are:
+
+```txt
+torch
+torchvision
+numpy
+pandas
+matplotlib
+scikit-learn
+Pillow
+tqdm
+ultralytics
+```
 ## Installation
 
 Clone the repository:
